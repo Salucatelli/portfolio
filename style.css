@@ -306,7 +306,7 @@ body {
     border: 5px solid var(--color-purple);
     padding: 60px;
     border-radius: 20px;
-    background-image: url(./images/projeto.jpg);
+    background-image: url(/images/projeto.jpg);
     background-size: cover;
     transition-property: transform;
     transition-duration: 0.7s;
@@ -325,7 +325,7 @@ body {
     border: 5px solid var(--color-purple);
     padding: 60px;
     border-radius: 20px;
-    background-image: url(./images//Jogo\ da\ Memória.jpg);
+    background-image: url(/images//Jogo\ da\ Memória.jpg);
     background-position: center;
     background-size: cover;
     transition-property: transform;
@@ -384,7 +384,7 @@ body {
     margin-top: 100px;
     width: 100%;
     height: 200px;
-    background-image: url(./images/7257ac7a4c0b4f1.jpg);
+    background-image: url(/images/7257ac7a4c0b4f1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 75px;

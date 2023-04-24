@@ -306,7 +306,7 @@ body {
     border: 5px solid var(--color-purple);
     padding: 60px;
     border-radius: 20px;
-    background-image: url(images/projeto.jpg);
+    background-image: url("images/projeto.jpg");
     background-size: cover;
     transition-property: transform;
     transition-duration: 0.7s;

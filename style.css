@@ -231,6 +231,16 @@ body {
     margin-top: 200px;
     margin-left: 150px;
     margin-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#textoPrincipal img {
+    width: 25em;
+    height: 25em;
+    margin-right: 10em;
+    border-radius: 50%;
 }
 
 #pTextoPrincipal {
@@ -246,7 +256,9 @@ body {
 #logos {
     display: flex;
     justify-content: space-around;
-    margin-top: 200px;
+    flex-wrap: wrap;
+    margin-top: 300px;
+    gap: 100px;
 }
 
 .logosInd {
@@ -298,7 +310,7 @@ body {
     background-color: var(--color-dark3);
 }
 
-.proj2,
+
 .proj3 {
     color: white;
     font-family: 'Inconsolata', monospace;
@@ -313,7 +325,7 @@ body {
     max-width: 450px;
 }
 
-.proj2:hover,
+
 .proj3:hover {
     transform: scale(1.2);
 }
@@ -335,13 +347,31 @@ body {
     cursor: pointer;
 }
 
-.proj1:hover {
+.proj2 {
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 50px;
+    border: 5px solid var(--color-purple);
+    padding: 60px;
+    border-radius: 20px;
+    background-image: url(./images/Captura\ de\ tela\ 2023-04-24\ 135711.png);
+    background-position: center;
+    background-size: cover;
+    transition-property: transform;
+    transition-duration: 0.7s;
+    max-width: 450px;
+    min-width: 450px;
+    cursor: pointer;
+}
+
+.proj1:hover,
+.proj2:hover {
     transform: scale(1.2);
 }
 
 #infoProjs {
 
-    text-align: left;
+    text-align: center;
     width: 800px;
     height: 300px;
     margin: auto;

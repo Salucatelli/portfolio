@@ -70,7 +70,7 @@ let info = document.getElementById("infoProjs");
 
 proj1.addEventListener("mouseenter", () => {
 
-    info.innerHTML = 'Este projeto consiste em um Jogo da Memória criado com HTML, CSS e Javascript, desenvolvido no Curso de desenvolvimento Web do Programador-BR. Este link leva para o projeto em si. Caso tenha interesse no repositório, clique em Repositório, logo abaixo da imagem, para ter acesso a todo o código do projeto.';
+    info.innerHTML = '<strong>JOGO-DA-MEMÓRIA:</strong> Este projeto consiste em um Jogo da Memória criado com HTML, CSS e Javascript, desenvolvido no Curso de desenvolvimento Web do Programador-BR. Este link leva para o projeto em si. Caso tenha interesse no repositório, clique em Repositório, logo abaixo da imagem, para ter acesso a todo o código do projeto.';
 
 
 })
@@ -83,7 +83,7 @@ proj1.addEventListener("mouseout", () => {
 
 proj2.addEventListener("mouseenter", () => {
 
-    info.innerHTML = 'Em Breve...';
+    info.innerHTML = '<strong>TO-DO-LIST (Lista de tarefas):</strong> Projeto criado utilizando HTML, CSS e JavaScript no FrontEnd, e NodeJs, Express, EJS e banco de dados MongoDB no BackEnd. Projeto com sistema CRUD Completo, com funcionalidades de adicionar, editar, marcar como concluida e detetar tarefas. Este link leva para o projeto em si. Caso tenha interesse no repositório, clique em Repositório, logo abaixo da imagem, para ter acesso a todo o código do projeto.';
 
 
 })

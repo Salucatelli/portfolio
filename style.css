@@ -259,6 +259,7 @@ body {
     flex-wrap: wrap;
     margin-top: 300px;
     gap: 100px;
+    max-width: 100%;
 }
 
 .logosInd {
@@ -354,7 +355,7 @@ body {
     border: 5px solid var(--color-purple);
     padding: 60px;
     border-radius: 20px;
-    background-image: url(./images/Captura\ de\ tela\ 2023-04-24\ 135711.png);
+    background-image: url(images/Captura\ de\ tela\ 2023-04-24\ 135711.png);
     background-position: center;
     background-size: cover;
     transition-property: transform;

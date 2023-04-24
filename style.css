@@ -236,7 +236,7 @@ body {
     justify-content: center;
 }
 
-#imgSobre{
+#imgSobre {
     width: 25em;
     height: 25em;
     margin-right: 10em;
@@ -258,7 +258,7 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 300px;
-    gap: 100px;
+    gap: 110px;
     max-width: 100%;
 }
 

@@ -325,7 +325,7 @@ body {
     border: 5px solid var(--color-purple);
     padding: 60px;
     border-radius: 20px;
-    background-image: url(images//Jogo\ da\ Memória.jpg);
+    background-image: url(images/JogodaMemória.jpg);
     background-position: center;
     background-size: cover;
     transition-property: transform;
